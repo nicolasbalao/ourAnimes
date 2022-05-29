@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "1310ecc716305b18",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e1906b5d1c0ae77",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Problème.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "57775f5255ed5a3f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Problème.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e17c16cdb95de4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "db6b36af3da4cfe7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b2e4da48b1dc8fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "10572338e22a8afa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c63ea44e0dfb2ae8",
+    "type": "split",
+    "children": [
+      {
+        "id": "76a214ef52fd03d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b8befd13878b061",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Problème.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8e1906b5d1c0ae77",
+  "lastOpenFiles": [
+    "Problème.md",
+    "Structure.md",
+    "Summary.md",
+    "AnilistAPI.md",
+    "Design.md",
+    "JikanAPI.md",
+    "Idées.md"
+  ]
+}

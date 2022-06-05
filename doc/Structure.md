@@ -25,5 +25,6 @@
 ## Backend
 
 ### Routes
-#### home
-- `Get` home 
+#### api/anime
+- `Get` for getting trending ...
+- `Get` with filter category 

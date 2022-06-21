@@ -1,0 +1,12 @@
+<div class="animeResume__container">
+    <div *ngFor="let key of Object.keys(animeData)" class="animeResume__container_section">
+        <div class="animeResume__section_header">
+            <h3 class="animeResume__header_title">{{key | uppercase}}</h3>
+            <a href="#">View all</a>
+        </div>
+        <div *ngIf="key !== 'top'" class="animeResume__containerAnime">
+            <app-anime-card *ngFor="let animeDetails of animeData[key].media" [anime]="animeDetails">
+            </app-anime-card>
+        </div>
+    </div>
+</div>

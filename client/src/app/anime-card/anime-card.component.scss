@@ -1,0 +1,22 @@
+.animeCard__container {
+    .animeCard__container_img {
+        display: block;
+        height: 26.5rem;
+        width: 18.5rem;
+
+        img {
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            border-radius: 5px;
+        }
+    }
+
+    .animeCard__container_animeTitle {
+        color: grey;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-top: 1rem;
+        max-width: 18rem;
+    }
+}

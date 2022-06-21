@@ -1,13 +1,13 @@
-import express, { Request, Response } from 'express';
+import express, { Application } from 'express';
 import animeRoute from "./routes/anime.route";
+import cors from 'cors'
 
-const app = express();
-const port = 3000;
+const app: Application = express();
+const port: number = 3001;
 
+//CORS
+app.use(cors({ origin: true }));
 
-app.get("/", (req: Request, res: Response): void => {
-  res.send("Server setup ts");
-})
 
 //ROUTES
 

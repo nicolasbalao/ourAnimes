@@ -8,5 +8,36 @@
             <app-anime-card *ngFor="let animeDetails of animeData[key].media" [anime]="animeDetails">
             </app-anime-card>
         </div>
+        <div *ngIf="key === 'top'" class="topAnime__container">
+            <div *ngFor="let animeDetails of animeData[key].media; let index = index" class="topAnime__container_row">
+                <span class="row__ranking">#{{index + 1}}</span>
+                <div class="row__container">
+                    <div class="row__container_left">
+                        <img src="{{animeDetails.coverImage.medium}}" alt="animeCover" />
+                        <div class="left__animeDetails">
+                            <h4>{{animeDetails.title.romaji}}</h4>
+                            <div class="tagContainer">
+                                <span *ngFor="let categories of animeDetails.genres"
+                                    class="tagsCat">{{categories}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__container_right right_container">
+                        <div class="right__scoreContainer">
+                            <span>{{animeDetails.averageScore}} %</span>
+                            <p>23308 users</p>
+                        </div>
+                        <div class="right__typeContainer right_container">
+                            <span>{{animeDetails.format}}</span>
+                            <p>1 hours, 44 mins</p>
+                        </div>
+                        <div class="right__dateContainer right_conatainer">
+                            <span>Winter 2021</span>
+                            <p>Finished</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

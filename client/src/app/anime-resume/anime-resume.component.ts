@@ -11,10 +11,12 @@ export class AnimeResumeComponent implements OnInit {
 
   Object = Object;
 
-  constructor() { }
+  colors!: string[]
+
+
 
   ngOnInit(): void {
-    console.log("animeData", this.animeData)
+    colors
   }
 
 }

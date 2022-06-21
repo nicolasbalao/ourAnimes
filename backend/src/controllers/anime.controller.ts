@@ -27,6 +27,7 @@ export const animeResume = async (req: Request, res: Response) => {
   },
   coverImage{
     large,
+    medium,
   },
   description,
   episodes,

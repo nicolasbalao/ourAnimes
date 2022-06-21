@@ -38,5 +38,102 @@
             scrollbar-width: none;
             cursor: e-resize;
         }
+
+        .topAnime__container {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+
+            margin-bottom: 4rem;
+
+            .topAnime__container_row {
+                display: flex;
+                align-items: center;
+                gap: 4rem;
+
+
+                .row__ranking {
+                    font-size: 3.5rem;
+                    color: grey;
+                    font-weight: 700;
+                    width: 4rem;
+                }
+
+                .row__container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    padding: 1rem;
+                    border-radius: 10px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    width: 100%;
+
+                    .row__container_left {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+
+                        width: 60%;
+
+                        img {
+                            height: 7rem;
+                            border-radius: 3px;
+                        }
+
+                        .left__animeDetails {
+
+                            margin: 1rem;
+
+
+                            h4 {
+                                margin-bottom: 2rem;
+                                color: grey;
+                                font-weight: 600;
+                                font-size: 1.5rem;
+                            }
+
+                            .tagContainer {
+
+                                display: flex;
+                                align-items: center;
+                                gap: 0.5rem;
+                                flex-wrap: wrap;
+
+                                span {
+                                    padding: 0.5rem 1rem;
+                                    background-color: red;
+                                    color: white;
+                                    border-radius: 50px;
+                                    font-weight: 600;
+                                    letter-spacing: 0.1rem;
+                                    margin-top: 0.3rem;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .row__container_right {
+                        display: flex;
+                        justify-content: space-around;
+                        width: 40%;
+                        margin-right: 4rem;
+
+                        span {
+                            font-size: 1.4rem;
+                            color: grey;
+                            font-weight: 600;
+                        }
+
+                        p {
+                            margin-top: 1rem;
+                        }
+
+                    }
+                }
+            }
+
+        }
     }
 }
